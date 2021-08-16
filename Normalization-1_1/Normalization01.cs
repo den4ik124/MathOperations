@@ -17,10 +17,5 @@ namespace Normalization
 
         public static IList<double> ReNormalize(IList<double> dataNorm, double min, double max) =>
             dataNorm.Select(item => min + item * (max - min)).ToList();
-
-        public static void SimpleHack()
-        {
-            qq =)
-        }
     }
 }
